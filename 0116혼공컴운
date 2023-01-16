@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T04:07:56.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="dkzeJ1uetBoaZl9s-Qoh" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T05:00:30.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.5" etag="Aoo10UT_qLkY2mFTZskE" type="github">
   <diagram id="KYAfdg51vruOsTZ6qEtS" name="페이지-1">
-    <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,6 +234,174 @@
         </mxCell>
         <mxCell id="IQw6sQjxBG1wc9CLxS5n-77" value="16bit 메모리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="1080" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-83" value="플래그" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQw6sQjxBG1wc9CLxS5n-79" target="IQw6sQjxBG1wc9CLxS5n-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-85" value="결과값" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQw6sQjxBG1wc9CLxS5n-79" target="IQw6sQjxBG1wc9CLxS5n-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-79" value="ALU" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="145" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-81" value="제어 신호" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQw6sQjxBG1wc9CLxS5n-80" target="IQw6sQjxBG1wc9CLxS5n-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-80" value="제어장치" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="870" y="155" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-82" value="플래그 레지스터" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-84" value="레지스터" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-88" value="피연산자" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQw6sQjxBG1wc9CLxS5n-86" target="IQw6sQjxBG1wc9CLxS5n-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-86" value="레지스터" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-89" value="피연산자" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IQw6sQjxBG1wc9CLxS5n-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="145" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1210" y="110" />
+              <mxPoint x="1220" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-87" value="레지스터" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-90" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="400" width="700" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-91" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-90">
+          <mxGeometry width="700" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-92" value="플래그 종류" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-91">
+          <mxGeometry width="120" height="33" as="geometry">
+            <mxRectangle width="120" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-93" value="의미" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-91">
+          <mxGeometry x="120" width="280" height="33" as="geometry">
+            <mxRectangle width="280" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-94" value="사용 예시" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-91">
+          <mxGeometry x="400" width="300" height="33" as="geometry">
+            <mxRectangle width="300" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-95" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-90">
+          <mxGeometry y="33" width="700" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-96" value="부호 플래그" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-95">
+          <mxGeometry width="120" height="32" as="geometry">
+            <mxRectangle width="120" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-97" value="연산한 결과의 부호를 나타냄" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-95">
+          <mxGeometry x="120" width="280" height="32" as="geometry">
+            <mxRectangle width="280" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-98" value="플래그가 1이면 계산 결과는 음수, 0이면 양수" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-95">
+          <mxGeometry x="400" width="300" height="32" as="geometry">
+            <mxRectangle width="300" height="32" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-103" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-90">
+          <mxGeometry y="65" width="700" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-104" value="제로 플래그" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-103">
+          <mxGeometry width="120" height="33" as="geometry">
+            <mxRectangle width="120" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-105" value="연산 결과가 0인지 여부를 나타냄" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-103">
+          <mxGeometry x="120" width="280" height="33" as="geometry">
+            <mxRectangle width="280" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-106" value="플래그가 1이면 연산 결과는 0, 0이면 0이 아님" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-103">
+          <mxGeometry x="400" width="300" height="33" as="geometry">
+            <mxRectangle width="300" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-123" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-90">
+          <mxGeometry y="98" width="700" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-124" value="캐리 플래그" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-123">
+          <mxGeometry width="120" height="33" as="geometry">
+            <mxRectangle width="120" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-125" value="연산 결과 올림수나 빌림수가 발생했는지를 나타냄" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-123">
+          <mxGeometry x="120" width="280" height="33" as="geometry">
+            <mxRectangle width="280" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-126" value="플래그가 1이면 발생하였음, 0이면 발생하지 않았음" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-123">
+          <mxGeometry x="400" width="300" height="33" as="geometry">
+            <mxRectangle width="300" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-127" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-90">
+          <mxGeometry y="131" width="700" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-128" value="오버플로우 플래그" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-127">
+          <mxGeometry width="120" height="33" as="geometry">
+            <mxRectangle width="120" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-129" value="오버플로우가 발생했는지를 나타냄" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-127">
+          <mxGeometry x="120" width="280" height="33" as="geometry">
+            <mxRectangle width="280" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-130" value="플래그가 1이면 발생하였음, 0이면 발생하지 않았음" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-127">
+          <mxGeometry x="400" width="300" height="33" as="geometry">
+            <mxRectangle width="300" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-131" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-90">
+          <mxGeometry y="164" width="700" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-132" value="인터럽트 플래그" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-131">
+          <mxGeometry width="120" height="33" as="geometry">
+            <mxRectangle width="120" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-133" value="인터럽트가 가능한지를 나타냄" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-131">
+          <mxGeometry x="120" width="280" height="33" as="geometry">
+            <mxRectangle width="280" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-134" value="플래그가 1이면 인터럽트 가능, 0이면 인터럽트 불가능" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-131">
+          <mxGeometry x="400" width="300" height="33" as="geometry">
+            <mxRectangle width="300" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-135" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-90">
+          <mxGeometry y="197" width="700" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-136" value="슈퍼바이저 플래그" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-135">
+          <mxGeometry width="120" height="33" as="geometry">
+            <mxRectangle width="120" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-137" value="커널 모드로 실행 중인지, 사용자 모드로 실행중인지를 나타냄" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-135">
+          <mxGeometry x="120" width="280" height="33" as="geometry">
+            <mxRectangle width="280" height="33" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQw6sQjxBG1wc9CLxS5n-138" value="플래가그 1이면 커널 모드, 0이면 사용자 모드" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="IQw6sQjxBG1wc9CLxS5n-135">
+          <mxGeometry x="400" width="300" height="33" as="geometry">
+            <mxRectangle width="300" height="33" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
