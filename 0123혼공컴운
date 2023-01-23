@@ -1,1 +1,183 @@
-<mxfile host="app.diagrams.net" modified="2023-01-23T02:40:55.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.10" etag="rXi3RuxD8IoRE0avGFE5" type="github"><diagram name="페이지-1" id="DHukJ611hgxrauHwjgH6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-23T03:03:09.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="l9vDk3Pip0UZTNuD7ysx" version="20.8.10" type="github">
+  <diagram name="페이지-1" id="DHukJ611hgxrauHwjgH6">
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oaVvVf50Bn00xiR9hycl-17" value="논리 주소&lt;br&gt;100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oaVvVf50Bn00xiR9hycl-1" target="oaVvVf50Bn00xiR9hycl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-1" value="대충 CPU" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oaVvVf50Bn00xiR9hycl-2" target="oaVvVf50Bn00xiR9hycl-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-19" value="물리 주소&lt;br&gt;15000 + 100" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oaVvVf50Bn00xiR9hycl-18">
+          <mxGeometry x="-0.2385" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-3" value="15000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-4" value="베이스 레지스터" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="168" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-5" value="MMU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-8" value="프로그램 A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-9" value="프로그램 B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-12" value="프로그램 C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-13" value="15000 (프로그램 C의 초기 물리 주소)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="611" y="240" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-14" value="15100" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="266" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="280" as="sourcePoint" />
+            <mxPoint x="610" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-16" value="메모리" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-20" value="&quot;프로그램 C의 100번지 데이터 삭제해줘&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-21" value="논리 주소&lt;br&gt;1500" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oaVvVf50Bn00xiR9hycl-22" target="oaVvVf50Bn00xiR9hycl-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-22" value="대충 CPU" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="53" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#900e0e;" edge="1" parent="1" source="oaVvVf50Bn00xiR9hycl-25" target="oaVvVf50Bn00xiR9hycl-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-24" value="물리 주소&lt;br&gt;8000 + 1500" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oaVvVf50Bn00xiR9hycl-23">
+          <mxGeometry x="-0.2385" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="223" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-26" value="8000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="238" y="480" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-27" value="베이스 레지스터" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="238" y="448" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-28" value="MMU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="238" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-30" value="프로그램 A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="463" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-31" value="프로그램 B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="463" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-33" value="프로그램 C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="463" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-35" value="9500" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#bb1111;" vertex="1" parent="1">
+          <mxGeometry x="581" y="465" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#900e0e;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="453" y="480" as="sourcePoint" />
+            <mxPoint x="593" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-37" value="메모리" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="493" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-38" value="&quot;프로그램 A의 1500번지 데이터 삭제해줘&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="23" y="400" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-39" value="8000 (프로그램 A의 베이스 레지스터 값)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="594" y="386" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-41" value="9000 (프로그램 A의 베이스 레지스터 값&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; + 한계 레지스터 값)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="595" y="453" width="226" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-42" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-43" value="한계 레지스터 값" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="415" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-53" value="논리 주소" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="oaVvVf50Bn00xiR9hycl-44" target="oaVvVf50Bn00xiR9hycl-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-44" value="대충 CPU" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="53" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-54" value="Yes" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="oaVvVf50Bn00xiR9hycl-45" target="oaVvVf50Bn00xiR9hycl-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-57" value="No" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="oaVvVf50Bn00xiR9hycl-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-45" value="논리 주소가&lt;br style=&quot;font-size: 10px;&quot;&gt;한계 레지스터보다&lt;br style=&quot;font-size: 10px;&quot;&gt;작은가?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="680" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-56" value="물리 주소" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="oaVvVf50Bn00xiR9hycl-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-46" value="베이스 레지스터 + 논리 주소" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="611" y="625" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-48" value="프로그램 A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="611" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-49" value="프로그램 B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="611" y="715" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="611" y="755" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-51" value="프로그램 C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="611" y="785" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-52" value="메모리" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="641" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oaVvVf50Bn00xiR9hycl-58" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;인터럽트 (트랩) 발생 : 다른 프로그램의 주소 공간 침범&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="129.5" y="825" width="307" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
