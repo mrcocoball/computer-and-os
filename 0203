@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T01:55:09.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.15" etag="WK_2mJG9x5RbYbNIXlOQ" type="github"><diagram name="페이지-1" id="O-xIgMPSDOe8JMPj3X0W">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-03T02:08:43.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jSJn3-wG2_fIbXlaNJqZ" version="20.8.15" type="github">
+  <diagram name="페이지-1" id="O-xIgMPSDOe8JMPj3X0W">
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pdav2DDm-CSZciN88Rtv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="420" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="420" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-4" value="공유 자원" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="300" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="90" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="90" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-9" value="조건 변수 x" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="170" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="170" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-14" value="조건 변수 y" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-16" value="모니터" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-21" value="프로&lt;br&gt;세스" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="155" y="395" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-22" value="프로&lt;br&gt;세스" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="205" y="395" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-23" value="프로&lt;br&gt;세스" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="255" y="395" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-24" value="프로&lt;br&gt;세스" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="605" y="105" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-25" value="공유 자원 연산 (인터페이스)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-26" value="공유 자원 연산 (인터페이스)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-27" value="공유 자원 연산 (인터페이스)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" target="pdav2DDm-CSZciN88Rtv-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="430" as="sourcePoint" />
+            <mxPoint x="370" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-29" value="x.wait()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="pdav2DDm-CSZciN88Rtv-28">
+          <mxGeometry x="0.0831" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-30" value="프로&lt;br&gt;세스" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="310" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-31" value="&lt;b&gt;x.signal()&lt;/b&gt;" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="145" as="sourcePoint" />
+            <mxPoint x="570" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdav2DDm-CSZciN88Rtv-32" value="큐" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
