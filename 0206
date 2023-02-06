@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T00:56:27.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.16" etag="BnmP_hRSPqABmP-HQQYP" type="github"><diagram name="페이지-1" id="mhLNA9IMMjYux3_qiem1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-06T02:08:47.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9XiDwC8ot91qGV_j34Zd" version="20.8.16" type="github">
+  <diagram name="페이지-1" id="mhLNA9IMMjYux3_qiem1">
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eEvPB2OChtg1ICR25jsf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eEvPB2OChtg1ICR25jsf-1" target="eEvPB2OChtg1ICR25jsf-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="290" />
+              <mxPoint x="400" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="150" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eEvPB2OChtg1ICR25jsf-2" target="eEvPB2OChtg1ICR25jsf-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="180" />
+              <mxPoint x="400" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-2" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="110" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-7" value="메모리" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="115" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-8" value="보조기억장치" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-9" value="스왑 영역" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="530" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-10" value="실행할&lt;br&gt;프로세스" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-11" value="사용되지 않는&lt;br&gt;프로세스" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-12" value="스왑 인" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-13" value="스왑 아웃" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-15" value="프로세스 A&lt;br&gt;(50MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="251" y="490" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-16" value="프로세스 B&lt;br&gt;(30MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="251" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-17" value="프로세스 C&lt;br&gt;(30MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="251" y="610" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-18" value="프로세스 D&lt;br&gt;(60MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="251" y="660" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-19" value="프로세스 E (10MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="251" y="780" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-20" value="프로세스 F&lt;br&gt;(20MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="251" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-24" value="메모리" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="281" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eEvPB2OChtg1ICR25jsf-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="120" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-29" value="메모리" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-31" value="프로세스 A&lt;br&gt;(50MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="461" y="490" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-32" value="프로세스 B&lt;br&gt;(30MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="461" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-33" value="빈 공간&lt;br&gt;(30MB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="461" y="610" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-34" value="프로세스 D&lt;br&gt;(60MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="461" y="660" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-35" value="프로세스 E (10MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="461" y="780" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-36" value="빈 공간&lt;br&gt;(20MB)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="461" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-37" value="메모리" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="491" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-39" value="프로세스 G&lt;br&gt;(50MB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="641" y="585" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="441" y="664.58" as="targetPoint" />
+            <mxPoint x="371" y="664.58" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eEvPB2OChtg1ICR25jsf-41" value="50MB 남았는데 들어갈 공간은 없네...?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="596" y="550" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
