@@ -1,1 +1,201 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T08:36:36.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.20" etag="UVxOo5Ps9q52STzOQoM6" type="github"><diagram name="페이지-1" id="6WJdJTozOrfHTzQtF9nv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-12T10:25:45.363Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8BZaBSk61hJiqfOls_rS" version="20.8.20" type="github">
+  <diagram name="페이지-1" id="6WJdJTozOrfHTzQtF9nv">
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oMqDDzEh6109KL-UT6SW-1" value="프로토콜 계층" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-3" value="애플리케이션" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-5" value="OS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-6" value="LAN 드라이버&lt;br&gt;LAN 장비" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-7" value="네트워크 인터페이스" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="15" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-8" value="웹 브라우저&amp;nbsp; 네트워크 게임&amp;nbsp; 채팅 프로그램" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="195" y="130" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-9" value="SOCKET 라이브러리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-10" value="TCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-11" value="UDP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-12" value="IP(Internet Protocol)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-16" value="인터넷" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-13" target="oMqDDzEh6109KL-UT6SW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-13" value="LAN 카드" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-15" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="630" y="352.5" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-17" value="서버" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-28" value="1. SYN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-23" target="oMqDDzEh6109KL-UT6SW-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="510" />
+              <mxPoint x="530" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-30" value="3. ACK (데이터 전송도 가능)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="570" />
+              <mxPoint x="250" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-31" value="4. 데이터 전송 시작" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-23" target="oMqDDzEh6109KL-UT6SW-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-23" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-29" value="2. SYN + ACK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-24" target="oMqDDzEh6109KL-UT6SW-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="540" />
+              <mxPoint x="230" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-24" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="490" y="560" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-25" value="서버" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-26" value="클라이언트" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="630" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-32" value="SYN : 접속 요청&lt;br&gt;ACK : 수락" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="625" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-33" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-34" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="520" y="870" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-35" value="서버&lt;br&gt;(200.200.200.2)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-36" value="클라이언트" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="940" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-45" value="1. 도메인명 cocoball.com" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-37" target="oMqDDzEh6109KL-UT6SW-42">
+          <mxGeometry x="0.1622" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-47" value="3. 접속 : 200.200.200.2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-37" target="oMqDDzEh6109KL-UT6SW-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-37" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="180" y="870" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-38" value="도메인명" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="270" y="740" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-39" value="IP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="390" y="740" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-40" value="cocoball.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="760" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-41" value="200.200.200.2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="760" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-46" value="2. 응답 : 200.200.200.2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-42" target="oMqDDzEh6109KL-UT6SW-37">
+          <mxGeometry x="0.1429" y="14" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-42" value="jio.com" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="780" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-43" value="200.200.213.4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="780" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-44" value="&lt;b&gt;DNS 서버&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="1020" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-59" value="애플리케이션" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="1050" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="1130" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-61" value="OS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="1160" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-62" value="LAN 드라이버&lt;br&gt;LAN 장비" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="1240" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-63" value="네트워크 인터페이스" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="1270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-73" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-64" target="oMqDDzEh6109KL-UT6SW-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-64" value="웹 브라우저 : HTTP 메시지 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="222.5" y="1030" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-78" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-65" target="oMqDDzEh6109KL-UT6SW-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-65" value="SOCKET 라이브러리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="1070" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-80" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-66" target="oMqDDzEh6109KL-UT6SW-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-66" value="TCP/IP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="207.5" y="1140" width="282.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-69" value="인터넷" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oMqDDzEh6109KL-UT6SW-70" target="oMqDDzEh6109KL-UT6SW-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-70" value="LAN 카드" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="1270" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-71" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.terminal;" vertex="1" parent="1">
+          <mxGeometry x="657.5" y="1252.5" width="80" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-72" value="서버" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="667.5" y="1320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oMqDDzEh6109KL-UT6SW-79" value="1. 웹 브라우저가 HTTP 메시지 생성&lt;br&gt;&lt;br&gt;2. SOCKET 라이브러리를 통해 전달&lt;br&gt;- TCP/IP 연결(IP, PORT)&lt;br&gt;- 데이터 전달&lt;br&gt;&lt;br&gt;3. TCP/IP 패킷 생성, HTTP 메시지 포함&lt;br&gt;&lt;br&gt;4. 서버 전달" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="1120" width="222.5" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
