@@ -1,2 +1,2 @@
-# computer-and-os
-혼공컴운 개인 자료
+# computer science
+CS 이론 관련 개인 자료 정리
